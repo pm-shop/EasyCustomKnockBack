@@ -10,8 +10,7 @@ class EntityDamage implements Listener
 {
     public function onDamage(EntityDamageByEntityEvent $event) {
         $kb = Main::getIntoConfig("config", "kb");
-        if($kb === "default") {
-        }else{
+        if($kb !== "default") {
             $event->setKnockBack($kb);
         }
     }
