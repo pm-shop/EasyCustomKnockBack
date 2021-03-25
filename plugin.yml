@@ -1,0 +1,5 @@
+name: EasyCustomKB
+version: 1.0
+api: [ 3.0.0 ]
+author: UnChatSauvage
+main: ucs\customkb\Main
